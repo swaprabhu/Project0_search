@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Advanced Search</title>         
+    </head>
+    <body style="font-family: Roboto,arial,sans-serif">
+        
+        <div class="header">
+            <div class="linksforsearch">
+                <a id="img" data-pid="23" href="index.html">Search</a>
+            </div>
+
+            <div class="rightlogo">
+                <img style="margin-left:10px" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
+            </div><br>
+            <div class="appbar"> <label style="margin-left:10px"> Advanced Search</label>    </div>
+        </div>
+        
+        <div class="lineseperation"></div>
+        
+        <div class="advancesearch">
+            <form action="https://google.com/search" method="get">
+                <!--Advanced Search Form -First Line-->
+                <label style="color: #333;font-size: 16px;">Find pages with...</label>
+                <div class="space"></div>
+                <label style="font-size: 13px;
+                font-weight: 700;
+                color: #777;">To do this in the search box.</label>
+                <!--Advanced Search Form -Second Line-->
+                <div class="form_form">
+                    <label>all these words:</label>
+                    <input type="text" name="as_q">
+                    <div class="search_options">
+                        Type the important words: <span class="monospace_font">tri-colour rat terrier</span>
+                    </div>
+                </div>
+                <!--Advanced Search Form -Third Line-->
+                <div class="form_form">
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <div class="search_options">
+                        Put exact words in quotes: <span class="monospace_font">"rat terrier"</span>
+                    </div>
+                </div>
+                <!--Advanced Search Form -Fourth Line-->
+                <div class="form_form">
+                    <label>any of these words:</label>
+                    <input type="text" name="as_oq">
+                    <div class="search_options">
+                        Type between all the words you want: <span class="monospace_font">miniature OR standard</span>
+                    </div>
+                </div>
+                <!--Advanced Search Form -Fifth Line-->
+                <div class="form_form">
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq">
+                    <div class="search_options">
+                        Put a minus sign just before words that you don't want: 
+                        <br>
+                        <span class="monospace_font">-rodent, -"Jack
+                            Russell"</span>
+                    </div>
+                </div>
+                <!--Advanced Search Form -Submit Line-->
+                <div class="form_form">
+                    <label></label>
+                    <div class="right_align">
+                        <input type="submit" class="jfk-button" value="Advanced Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+    </body>
+    </html>
+    
